@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Elangosurya1998\ByteboxMediaManager\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ByteboxMediaManagerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'bytebox-media-manager';
 
     public $description = 'My command';
 

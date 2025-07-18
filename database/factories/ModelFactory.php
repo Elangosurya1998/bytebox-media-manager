@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Database\Factories;
+namespace Elangosurya1998\ByteboxMediaManager\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

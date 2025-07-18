@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "elangosurya1998/bytebox-media-manager",
+    "description": "This is my package bytebox-media-manager",
     "keywords": [
-        ":vendor_name",
+        "Elangosurya1998",
         "laravel",
-        ":package_slug"
+        "bytebox-media-manager"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/elangosurya1998/bytebox-media-manager",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/elangosurya1998/bytebox-media-manager/issues",
+        "source": "https://github.com/elangosurya1998/bytebox-media-manager"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "elango surya",
+            "email": "elangosurya85@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
     "require-dev": {
@@ -41,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Elangosurya1998\\ByteboxMediaManager\\": "src/",
+            "Elangosurya1998\\ByteboxMediaManager\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Elangosurya1998\\ByteboxMediaManager\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Elangosurya1998\\ByteboxMediaManager\\ByteboxMediaManagerServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ByteboxMediaManager": "Elangosurya1998\\ByteboxMediaManager\\Facades\\ByteboxMediaManager"
             }
         }
     },
