@@ -2,6 +2,8 @@
 
 namespace Elangosurya1998\ByteboxMediaManager;
 
+use Elangosurya1998\ByteboxMediaManager\Commands\ByteboxMediaManagerCommand;
+use Elangosurya1998\ByteboxMediaManager\Testing\TestsByteboxMediaManager;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Elangosurya1998\ByteboxMediaManager\Commands\ByteboxMediaManagerCommand;
-use Elangosurya1998\ByteboxMediaManager\Testing\TestsByteboxMediaManager;
 
 class ByteboxMediaManagerServiceProvider extends PackageServiceProvider
 {
